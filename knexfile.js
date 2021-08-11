@@ -4,12 +4,12 @@
  * You will not need to make changes to this file.
  */
 
-require('dotenv').config();
+require("dotenv").config();
 const path = require("path");
 
 const {
-  DATABASE_URL = "postgresql://postgres@localhost/postgres",
-  DATABASE_URL_DEVELOPMENT = "postgresql://postgres@localhost/postgres",
+  DATABASE_URL = "postgres://pkwqbhnvjrpyaf:e44cfd862a80f6bebcbf3acd4177ae0bd071ce2fb2deaf9fc7880c654ed0f87a@ec2-52-45-183-77.compute-1.amazonaws.com:5432/dchplrasle9lea",
+  DATABASE_URL_DEVELOPMENT = "postgres://pkwqbhnvjrpyaf:e44cfd862a80f6bebcbf3acd4177ae0bd071ce2fb2deaf9fc7880c654ed0f87a@ec2-52-45-183-77.compute-1.amazonaws.com:5432/dchplrasle9lea",
   DATABASE_URL_TEST = "postgresql://postgres@localhost/postgres",
   DATABASE_URL_PREVIEW = "postgresql://postgres@localhost/postgres",
   DEBUG,
