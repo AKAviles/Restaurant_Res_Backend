@@ -1,0 +1,20 @@
+metadata:
+  name: restaurant-reservation-api
+
+nameOverride: "restaurant-reservation-api"
+fullnameOverride: "restaurant-reservation-api"
+
+replicaCount: 1
+revisionCount: 1
+
+image:
+  repository: repo
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 8000
+
+spec:
+  nodeName: ip-172-31-8-226.ec2.internal
