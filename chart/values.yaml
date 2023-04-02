@@ -14,7 +14,7 @@ image:
 
 service:
   type: ClusterIP
-  port: 8000
+  port: 5000
 
 spec:
   nodeName: ip-172-31-8-226.ec2.internal
